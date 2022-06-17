@@ -1,0 +1,25 @@
+{
+    "name": "shahbazhassan/pdf-version-converter",
+    "description": "PHP library for converting the version of PDF files (for compatibility purposes).",
+    "keywords": ["pdf", "converter", "version converter", "pdf version converter", "pdf version"],
+    "type": "library",
+    "require": {
+        "php": ">=7.3.0",
+        "symfony/filesystem": "^5.4",
+        "symfony/process": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shahbazhassan\\PdfVersionConverter\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Shahbaz Hassan",
+        "email": "shahbazhassan24@gmail.com"
+    }],
+    "minimum-stability": "stable"
+}
