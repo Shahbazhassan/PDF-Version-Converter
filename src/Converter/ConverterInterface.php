@@ -3,7 +3,7 @@
 /*
  * This file is part of the PDF Version Converter.
  *
- * (c) Thiago Rodrigues <xthiago@gmail.com>
+ * (c) Shahbaz Hassan <shahbazhassan24@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -13,7 +13,7 @@ namespace Shahbazhassan\PdfVersionConverter\Converter;
 /**
  * Classes that implements this interface can convert the PDF version of given file.
  *
- * @author Thiago Rodrigues <xthiago@gmail.com>
+ * @author Shahbaz Hassan <shahbazhassan24@gmail.com>
  */
 interface ConverterInterface
 {

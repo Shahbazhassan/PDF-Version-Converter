@@ -3,7 +3,7 @@
 /*
  * This file is part of the PDF Version Converter.
  *
- * (c) Thiago Rodrigues <xthiago@gmail.com>
+ * (c) Shahbaz Hassan <xthiago@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -15,7 +15,7 @@ use \RuntimeException;
 /**
  * Guesser that reads the first 1024 bytes of given PDF file and try find the version with regular expression (regex).
  *
- * @author Thiago Rodrigues <xthiago@gmail.com>
+ * @author Shahbaz Hassan <xthiago@gmail.com>
  */
 class RegexGuesser implements GuesserInterface
 {

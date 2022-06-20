@@ -3,19 +3,19 @@
 /*
  * This file is part of the PDF Version Converter.
  *
- * (c) Thiago Rodrigues <xthiago@gmail.com>
+ * (c) Shahbaz Hassan <xthiago@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 namespace Shahbazhassan\PdfVersionConverter\Converter;
 
-use Symfony\Component\Process\Process;
+use Shahbazhassan\PdfVersionConverter\Process\Process;
 
 /**
  * Encapsulates the knowledge about gs command.
  *
- * @author Thiago Rodrigues <xthiago@gmail.com>
+ * @author Shahbaz Hassan <xthiago@gmail.com>
  */
 class GhostscriptConverterCommand
 {
